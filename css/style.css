@@ -1,0 +1,167 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'PingFangTC-Regular', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container.firstSect {
+  margin-top: 40px;
+}
+
+.container h1 {
+  font-weight: normal;
+  font-size: 80px;
+  line-height: 95px;
+  padding-bottom: 24px;
+  border-bottom: 2px solid #000;
+}
+
+.container img.myPhoto {
+  display: block;
+  padding: 48px 0;
+}
+
+.title {
+  font-size: 32px;
+  line-height: 48px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid black;
+}
+
+.title span {
+  margin-left: 16px;
+  color: #A00404;
+  font-size: 24px;
+  line-height: 48px;
+}
+
+.title.white {
+  color: white;
+  border-color: white;
+}
+
+.title.white span {
+  color: inherit;
+}
+
+.block {
+  padding: 16px 0;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.profileText {
+  margin-bottom: 24px;
+}
+
+.profileText li {
+  margin-bottom: 24px;
+}
+
+.eduction {
+  margin-bottom: 32px;
+}
+
+.eduction li {
+  margin-bottom: 16px;
+}
+
+.blueBlock {
+  background-color: #415165;
+  color: white;
+  border-color: white;
+}
+
+.skillWrap {
+  margin: 0 auto;
+  max-width: 996px;
+  overflow: hidden;
+}
+
+.skillWrap h2 {
+  padding-top: 24px;
+  text-align: center;
+}
+
+.skillWrap ul.block {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 40px auto;
+  padding: 0 23px;
+  border-left: 1px solid white;
+}
+
+.skillWrap ul.block li {
+  margin-bottom: 8px;
+}
+
+.skills {
+  margin-bottom: 64px;
+}
+
+.experience {
+  margin-bottom: 40px;
+}
+
+.experience li {
+  margin-bottom: 24px;
+}
+
+.experience h3 {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: bold;
+}
+
+.experience .logo {
+  display: block;
+}
+
+.experience p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.footerWrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px 0 40px 0;
+}
+
+.footerWrap h2 {
+  text-align: center;
+}
+
+.footerWrap ul {
+  text-align: center;
+}
+
+.footerWrap ul li {
+  margin-bottom: 16px;
+}
+
+.footerWrap ul li:last-child {
+  margin-bottom: 0;
+}
+
+.icons {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 0 auto;
+}
+
+.icons .icon {
+  margin: 0 12px;
+  vertical-align: bottom;
+}
+/*# sourceMappingURL=style.css.map */
